@@ -59,8 +59,9 @@ Route::put('/event/{id}/team', "TeamController@editTeam");
 Route::get('/event/{id}/team', "TeamController@getAllTeamsDetails");
 
 
-
-
+Route::post('/player', "UserController@registerPlayer");
+Route::post('/org', "UserController@registerOrg");
+Route::post('/login', "UserController@Login");
 
 
 
